@@ -457,7 +457,7 @@ def scalability_experiment(save_figures=False):
     print("可扩展性实验：不同网络规模下的算法性能")
     print("=" * 60)
 
-    sizes = [10, 20, 30, 40, 50]
+    sizes = [10, 40, 70, 100, 130]
     results = []
 
     for size in sizes:
@@ -678,4 +678,5 @@ if __name__ == "__main__":
         run_text_only_experiment()
     else:
         print("无效选择，使用默认模式（纯文本）")
+
         run_text_only_experiment()
