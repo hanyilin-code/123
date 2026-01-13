@@ -1,6 +1,5 @@
 """
-杀伤链重构实验 - 最终微调版
-调整参数让DDPG表现更好
+杀伤链重构实验 
 """
 import numpy as np
 import random
@@ -630,4 +629,5 @@ def main():
     print("\n实验完成！")
 
 if __name__ == "__main__":
+
     main()
